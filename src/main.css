@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 设置整个页面的渐变色背景 */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #597785, #e6f7ff, #3a86d2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App {
+    text-align: center;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .mySwiper {
+    width: 80%;
+    max-width: 1400px; /* 限制最大宽度 */
+    margin: 0 auto;
+    height: 560px;
+    overflow: hidden;
+  }
+  
+  .mySwiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(100%);
+  }
+  
+  .swiper-slide {
+    transition: transform 0.3s ease;
+  }
+ 
+
+
+
+
+/* .hidden:hover {
+    display: block;
+} */
