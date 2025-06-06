@@ -2,7 +2,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { AppDataSource } from '@/lib/database';
-import { work } from '@/lib/entities/Wrok'
+import { work } from '@/lib/entities/Work'
 import formidable from 'formidable';
 import fs from 'fs';
 import path from 'path';
